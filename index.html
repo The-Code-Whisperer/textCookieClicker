@@ -25,6 +25,10 @@
         document.querySelector('#button').innerHTML = "Upgrade for " + button * 100 + "!";
       }
       document.querySelector('#counter').innerHTML = counter;
+      var img = document.createElement("img");
+      img.src = "cookie.jpg";
+      var src = document.getElementById("counter")
+      src.appendChild(img);
     }
 
     let autoClicker = 0;
@@ -39,6 +43,11 @@
         autoInterval = setInterval(count, 1000 / autoClicker);
       }
       document.querySelector('#counter').innerHTML = counter;
+      var img = document.createElement("img");
+      img.src = "cookie.jpg";
+      var src = document.getElementById("counter")
+      src.appendChild(img);
+
       document.querySelector('#autoClickerText').innerHTML = "You have " + autoClicker + " auto clickers.";
     }
   </script>
