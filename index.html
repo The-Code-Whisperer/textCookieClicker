@@ -8,12 +8,7 @@
     function count() {
       counter += button;
       document.querySelector('#counter').innerHTML = counter;
-
       document.title = "Cookies: " + counter;
-      var img = document.createElement("img");
-      img.src = "cookie.jpg";
-      var src = document.getElementById("counter")
-      src.appendChild(img);
     }
 
     let button = 1;
@@ -25,15 +20,9 @@
         document.querySelector('#button').innerHTML = "Upgrade for " + button * 100 + "!";
       }
       document.querySelector('#counter').innerHTML = counter;
-      var img = document.createElement("img");
-      img.src = "cookie.jpg";
-      var src = document.getElementById("counter")
-      src.appendChild(img);
     }
-
     let autoClicker = 0;
     let autoInterval = null;
-
     function upgradeAutoClicker() {
       if (counter >= (autoClicker + 1) * 50) {
         counter = counter - (autoClicker + 1) * 50;
@@ -43,11 +32,6 @@
         autoInterval = setInterval(count, 1000 / autoClicker);
       }
       document.querySelector('#counter').innerHTML = counter;
-      var img = document.createElement("img");
-      img.src = "cookie.jpg";
-      var src = document.getElementById("counter")
-      src.appendChild(img);
-
       document.querySelector('#autoClickerText').innerHTML = "You have " + autoClicker + " auto clickers.";
     }
   </script>
@@ -55,7 +39,7 @@
 </head>
 
 <body style="padding-left: 20px">
-  <h1>Cookies</h1>
+  <h1>Cookies<img src="cookie.jpg"></h1>
   <h1 id="counter">0</h1>
   <button onclick="count()">Click Here!</button>
   <button id="button" onclick="upgradeButton()">Upgrade button for 100!</button>
