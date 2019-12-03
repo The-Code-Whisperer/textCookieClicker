@@ -1,7 +1,7 @@
 
 // Set starting value of counter to 0
 if (!localStorage.getItem('counter')) {
-    localStorage.setItem('counter', 0);
+    localStorage.setItem('counter', 0), 10;
 }
 else {
     document.addEventListener('DOMContentLoaded', () => {
@@ -10,18 +10,15 @@ else {
     });
 }
 if (!localStorage.getItem('button')) {
-    localStorage.setItem('button', 1);
+    localStorage.setItem('button', 1), 10;
 }
 else {
     document.addEventListener('DOMContentLoaded', () => {
         document.querySelector('#button').innerHTML = "Upgrade for " + localStorage.getItem('button') * 100 + "!";
     });
 }
-if (!localStorage.getItem('autoClicker100')) {
-    localStorage.setItem('autoClicker100', 0);
-}
 if (!localStorage.getItem('autoClicker')) {
-    localStorage.setItem('autoClicker', 0);
+    localStorage.setItem('autoClicker', 0), 10;
 }
 else {
     document.addEventListener('DOMContentLoaded', () => {
@@ -40,9 +37,6 @@ function count() {
     document.querySelector('#counter').innerHTML = numberWithCommas(localStorage.getItem('counter'));
     document.title = "Cookies: " + numberWithCommas(localStorage.getItem('counter'));
 }
-function count100() {
-
-}
 function upgradeButton() {
     if (parseInt(localStorage.getItem('counter')) >= parseInt(localStorage.getItem('button')) * 100) {
         localStorage.setItem('counter', parseInt(localStorage.getItem('counter'), 10) - parseInt(localStorage.getItem('button'), 10) * 100);
@@ -57,7 +51,6 @@ function upgradeAutoClicker() {
         localStorage.setItem('counter', parseInt(localStorage.getItem('counter'), 10) - (parseInt(localStorage.getItem('autoClicker'), 10) + 1) * 50);
         localStorage.setItem('autoClicker', parseInt(localStorage.getItem('autoClicker'), 10) + 1);
         document.querySelector('#autoClicker').innerHTML = "Add autoclicker for " + (parseInt(localStorage.getItem('autoClicker'), 10) + 1) * 50 + "!";
-        localStorage.setItem('autoClicker2', Math.floor(parseInt(localStorage.getItem('autoClicker')) / 100))
         autoInterval && clearInterval(autoInterval);
         autoInterval = setInterval(count, 1000 / parseInt(localStorage.getItem('autoClicker'), 10));
     }
