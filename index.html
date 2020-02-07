@@ -6,6 +6,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>Old-School Cookie Clicker</title>
   <link rel="shortcut icon" href="cookiebig.jpg">
+
 </head>
 
 <body style="padding-left: 20px">
@@ -42,18 +43,47 @@
 </div>
   <a class="patchLink" href="patchNotes.html">Patch Notes</a>
   <a class="leaderboard" href="leaderboards.html">Leaderboards</a>
-  <br>Display Options: 
+  <br>
+  <br>
+  <br>
+  Display Options: 
   <select class="theme">
-    <option>Classic White</option>
-    <option>Berry Blue</option>
-    <option>Cookie Dough Beige</option>
-    <option>Reddish Red</option>
-    <option>Biological Wasteland</option>
-    <option>Fallout Shelter</option>
-    <option>Kimagical's Current Theme</option>
-    <option>Build my own theme!</option>
+    <option selected disabled>Classic White</option>
+    <option disabled>Berry Blue</option>
+    <option disabled>Cookie Dough Beige</option>
+    <option disabled>Reddish Red</option>
+    <option disabled>Biological Wasteland</option>
+    <option disabled>Fallout Shelter</option>
+    <option disabled>Kimagical's Current Theme</option>
+    <option disabled>Build my own theme!</option>
   </select>
-  <p class="online">Players Online: {% pythonArgument %}</p>
+
+  Hexcolor: <input type="text" id="colorText">
+
+  <p id="hextext">Click the button to change the color of this entire webpage!</p>
+
+  <button onclick="isInputValid()">Check color</button>
+
+  <script>
+  function isInputValid() {
+      var input = document.getElementById("colorText").value;
+      if (/^#[0-9A-F]{6}$/i.test(input))
+      {
+          changeBackgroundColor()
+      }
+      else
+      {
+          document.getElementById("hextext").innerHTML="Put in a hexcolor eg. #EF1222 "
+          + "# then 6 characters from 0 to 9, or A to F. <br><br>";
+      }
+  }
+
+  function changeBackgroundColor() {
+      var input = document.getElementById("colorText").value;
+      document.body.style.backgroundColor = input;
+  }
+  </script>
+  <p class="online">Players Online: </p>
 
 </body>
 
