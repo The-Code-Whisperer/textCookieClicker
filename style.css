@@ -8,3 +8,9 @@
   position: absolute;
   bottom: 75px;
 }
+
+.online {
+  position: relative;
+  right: 50px;
+  top: 10px;
+}
