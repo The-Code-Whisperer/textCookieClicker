@@ -1,0 +1,156 @@
+[33mcommit 548faf81aa95dd8582cf97fd5687427facf74dfc[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Steven Kim <hansomekim@gmail.com>
+Date:   Tue Dec 3 17:09:35 2019 -0500
+
+    commas
+
+[33mcommit b638e1a39caaa3c4f0c10cd818bf137740945cb2[m
+Author: Steven Kim <hansomekim@gmail.com>
+Date:   Tue Dec 3 17:07:54 2019 -0500
+
+    test
+
+[33mcommit 57b460a03fca4431793517dd7fd05df9cf9dc4b4[m
+Author: Steven Kim <hansomekim@gmail.com>
+Date:   Tue Dec 3 13:58:49 2019 -0500
+
+    commas
+
+[33mcommit e78b05c4aeaf7217bd421b1581a7783a7e709f00[m
+Author: Steven Kim <hansomekim@gmail.com>
+Date:   Tue Dec 3 12:17:29 2019 -0500
+
+    fix link syntax
+
+[33mcommit 02a0784846e252ccb45c33cd7d69533f7a5bd6d3[m
+Author: Steven Kim <hansomekim@gmail.com>
+Date:   Tue Dec 3 12:17:05 2019 -0500
+
+    fix link syntax
+
+[33mcommit 7812007386d7cb3d3bc245df6c92dc17df6ba78e[m
+Author: Steven Kim <hansomekim@gmail.com>
+Date:   Tue Dec 3 12:13:17 2019 -0500
+
+    no theme
+
+[33mcommit d63cdd9916b4f349fda86bb7c63eada45df27bff[m
+Author: Steven Kim <hansomekim@gmail.com>
+Date:   Tue Dec 3 12:11:09 2019 -0500
+
+    theme test
+
+[33mcommit b4e941e295784423a85c85e0d7528a02b714982e[m
+Author: Steven Kim <hansomekim@gmail.com>
+Date:   Tue Dec 3 12:10:43 2019 -0500
+
+    theme test
+
+[33mcommit b93ae57e046e4dde6a5ee0afab5da87132f6b176[m
+Author: Steven Kim <hansomekim@gmail.com>
+Date:   Tue Dec 3 12:10:31 2019 -0500
+
+    theme test
+
+[33mcommit fccd369e795b2d6e45dabbb2e828b22fdf54ed97[m
+Author: Steven Kim <hansomekim@gmail.com>
+Date:   Tue Dec 3 12:10:07 2019 -0500
+
+    theme test
+
+[33mcommit 0506a1d91bebd4822541b2ba4ab75ca0a64d57f5[m
+Author: Steven Kim <hansomekim@gmail.com>
+Date:   Tue Dec 3 12:09:24 2019 -0500
+
+    theme test
+
+[33mcommit ba53b361f0125f8368853398652901fda228198f[m
+Author: Steven Kim <hansomekim@gmail.com>
+Date:   Tue Dec 3 12:08:09 2019 -0500
+
+    theme test
+
+[33mcommit a28cd7581ca05cb9ae243ef6daf96aa97b43d833[m
+Author: Steven Kim <hansomekim@gmail.com>
+Date:   Tue Dec 3 12:07:50 2019 -0500
+
+    theme test
+
+[33mcommit 2877ecac44bc4a64dda9860113c6fd5f92b5c1ee[m
+Author: Steven Kim <hansomekim@gmail.com>
+Date:   Tue Dec 3 12:07:19 2019 -0500
+
+    theme test
+
+[33mcommit 99948a9adf20e04fd240f5501ee48904c2494d7c[m
+Author: Steven Kim <hansomekim@gmail.com>
+Date:   Tue Dec 3 11:59:21 2019 -0500
+
+    link to patches
+
+[33mcommit 13f8e216c9de2cabcee14f4ab889a7b94b8e4f7c[m
+Author: Steven Kim <hansomekim@gmail.com>
+Date:   Tue Dec 3 11:44:23 2019 -0500
+
+    saves
+
+[33mcommit 6c844ca2b50b3619de684b016119a28cdadefb1f[m
+Author: Steven Kim <hansomekim@gmail.com>
+Date:   Sun Dec 1 19:05:26 2019 -0500
+
+    try
+
+[33mcommit ce9ab066dd5da057962e6c697cbd1c23561ec77b[m
+Author: Steven Kim <hansomekim@gmail.com>
+Date:   Sun Dec 1 19:03:34 2019 -0500
+
+    title cookie
+
+[33mcommit cd784c613e92aedacb293a49aae78badd15f25ab[m
+Author: Steven Kim <hansomekim@gmail.com>
+Date:   Sun Dec 1 18:59:43 2019 -0500
+
+    image while upgrading
+
+[33mcommit a1a3e7f43451ddceb9145736419ace346676322b[m
+Merge: 719af79 638ebf6
+Author: Steven Kim <hansomekim@gmail.com>
+Date:   Sun Dec 1 18:58:07 2019 -0500
+
+    Merge branch 'master' of https://github.com/The-Code-Whisperer/textCookieClicker
+
+[33mcommit 719af7951ade95c9bc2481b9cdf333421b2a521a[m
+Author: Steven Kim <hansomekim@gmail.com>
+Date:   Sun Dec 1 18:57:58 2019 -0500
+
+    image
+
+[33mcommit 638ebf639cafe348800938da5ae67057b076520d[m
+Author: The-Code-Whisperer <hansomekim@gmail.com>
+Date:   Sun Dec 1 18:35:59 2019 -0500
+
+    Delete index.md
+
+[33mcommit 5b13bc9ee28fa1af245cedfbf086b781921de733[m
+Author: The-Code-Whisperer <hansomekim@gmail.com>
+Date:   Sun Dec 1 18:34:59 2019 -0500
+
+    Create index.md
+
+[33mcommit 34cb669fc432b07e6e78c9f223cb0f8a73808255[m
+Author: Steven Kim <hansomekim@gmail.com>
+Date:   Sun Dec 1 18:32:25 2019 -0500
+
+    change file name
+
+[33mcommit c8f24e581c04833167a0f39697518d888a7518b5[m
+Author: The-Code-Whisperer <97stevenkim@gmail.com>
+Date:   Sun Dec 1 18:31:39 2019 -0500
+
+    Set theme jekyll-theme-cayman
+
+[33mcommit 68ce8db1dc4704992cc80497fc8b4d7b30c2fe1a[m
+Author: Steven Kim <hansomekim@gmail.com>
+Date:   Sun Dec 1 18:29:04 2019 -0500
+
+    first commit
