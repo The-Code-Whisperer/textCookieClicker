@@ -16,6 +16,27 @@
   <button id="autoClicker" onclick="upgradeAutoClicker()">Add autoclicker for 50!</button>
   <p id="autoClickerText"></p>
   <a href="market.html">Market (currently UNSAFE)</a>
+  <br>
+  <br>
+
+  <div class="container">
+    Chat (Doesn't work yet)
+    <br>
+    <textarea id="chat" rows="10" cols="51"></textarea>
+    <br>
+    <input type="text" size="40" id="submit_box" name="submitbox" value="What you put in here">
+    <button onclick="chat()">Send</button>
+    <script>
+        function chat() {
+            var dt = new Date();
+            var text = document.getElementById("submit_box").value;
+            document.getElementById("chat").innerHTML += dt.toLocaleTimeString() + ": " + text + "\n";
+            var textarea = document.getElementById('chat');
+            textarea.scrollTop = textarea.scrollHeight;
+            document.getElementById("submit_box").value = "";
+        }
+    </script>
+</div>
   <a class="patchLink" href="patchNotes.html">Patch Notes</a>
 </body>
 
